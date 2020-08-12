@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.messages {
+  border: 1px solid black;
+  flex: 3 0 ;
+  background-color: skyblue;
+
+}
+
+.messages:hover {
+  background-color: #BADA55;
+}
+
+.message-list {
+  text-align: center;
+  background-color: lavender;
+  font-size: 2rem;
+  list-style:none;
+  max-height:400px;
+  overflow: scroll;
+
+}
+
+.title {
+
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  background-color: paleturquoise;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading{
+  background-color: whitesmoke;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-main{
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-left: 5px;
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  background-color: lightsalmon;
+
+}
+
+.chat-panel{
+  text-align: center;
+  align-items: center;
+  background-color: snow;
+  font-family: Georgia;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.outgoing {
+  padding: 2rem ;
+  size: 2rem;
+  font-size: 1cm;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-view{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: azure;
+  font-size: 1cm;
+}
+
+.btn-starters{
+  margin-top: 50px
+}
+
+.status{
+  background-color: floralwhite;
+  color: red;
+  font-size: 35px;
+  font-weight: 250;
+
+}
+
+
+.login-panel{
+  text-align: center;
+  align-items: center;
+  font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  padding: 0.5rem;
+  size: 2rem;
+  font-size: 1cm;
+  margin-top: 1cm;
+}
+
+.create {
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: powderblue;
+  font-size: 1cm;
+}
+
+.btn-logout{
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  background-color: lightsalmon;
+}
+
+.message {
+  text-align: center;
+  padding: 0.5rem;
+  size: 2rem;
+  background-color: white;
+  font-size: 1cm;
+}
+
+.btn-msg{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: mediumturquoise;
+  font-size: 1cm;
+}
+
+.btn-home{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: lightcoral;
+  font-size: 1cm;
+
+}
+
+.sub-title {
+  text-align: center;
+
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  background-color: powderblue;
+}
+
+.btn-start {
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: peru;
+  font-size: 1cm;
+}
+
+.divider{
+  width:50px;
+  height:auto;
+  display:inline-block;
+}
+
+.avail-user {
+  font-size: 40px;
+  font-weight: bold;
+}

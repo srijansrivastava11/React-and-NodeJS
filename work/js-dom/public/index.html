@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+<section class="shopping-cart">
+  <div class="title">
+    Shopping Bag
+  </div>
+
+  <div>
+    <input class="to-add"/> <button class="addItem" type="button">Add</button>
+  </div>
+
+  <div class="products"></div>
+</section>
+
+<script type="text/javascript" src="data/products.json"></script>
+<script>var products = JSON.parse(data); </script>
+<script src="cart.js"></script>
+  </body>
+</html>

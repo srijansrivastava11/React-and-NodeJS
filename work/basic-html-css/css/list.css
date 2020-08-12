@@ -1,0 +1,24 @@
+
+h2 {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+#one{
+    background: red;
+}
+ul {
+  list-style-type: none;
+}
+p ~ ul {
+  background: #ff0000;
+}
+li:nth-child(2) {
+  background: lime;
+}
+:nth-child(4n) {
+  background: orange;
+}

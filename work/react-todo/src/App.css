@@ -1,0 +1,204 @@
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.app {
+  background: rgb(204 231 199 / 82%);
+  color: #571c5b;
+  height: 100%;
+  width: 100%;
+  padding: 40px auto;
+  position: absolute;
+}
+
+.login {
+  text-align: center;
+}
+
+.to-login {
+  padding: 0.5rem;
+  size: 1rem;
+  background-color: #571c5b;
+  font-size: 1cm;
+  margin: 10px;
+  color: white;
+
+}
+
+.user-info {
+  padding: 0.5rem;
+  size: 2rem;
+  font-size: 1cm;
+  margin-top: 1cm;
+}
+
+.sort-alphabetically {
+  margin: auto 10px;
+}
+.sort-container{
+  margin: 661px;
+}
+.btn-refresh {
+
+  padding: 0.5rem;
+  size: 1rem;
+  background-color: #571c5b;
+  font-size: 1cm;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.clear-list{
+  padding: 0.5rem;
+  size: 1rem;
+  background-color: #571c5b;
+  font-size: 1cm;
+  color: white;
+  margin-left: 51%;
+  margin-right: -58%;
+}
+
+.todo {
+  height: 25px;
+  margin: 2px;
+  padding: 0.5rem;
+  width: 350px;
+  font-size: 0.5cm;
+}
+
+.theme {
+  margin-left: 45%;
+}
+
+.light {
+  background: rgb(204 231 199 / 82%);
+  color: #571c5b;
+  position: absolute;
+  height: 100%;
+}
+
+.dark {
+  background: black;
+  color: white;
+  position: absolute;
+  height: 100%;
+}
+
+.colorful {
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  color: black;
+  position: absolute;
+  height: 100%;
+}
+
+span.task-title {
+    font-size: 30px;
+    padding: 30px;
+}
+.nav{
+  top: 35px;
+  position: absolute;
+}
+.nav-header {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  margin: auto 40px;
+}
+
+.header {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.second-header {
+  margin: 0 184px 20px 12%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.todo-container {
+  text-align: center;
+
+}
+
+.add-todo-container {
+  margin: 20px;
+  height: 300px;
+  width: auto;
+}
+
+.logout {
+  margin: -76px 72px 6px 1400px;
+  font-weight: bold;
+  padding: 0.5rem;
+  size: 1rem;
+  background-color: red;
+  font-size: 1cm;
+  color: white;
+  margin-top: -332px;
+}
+
+.todo-input {
+width: 30%;
+padding: 0.5rem;
+font-size: 1cm;
+margin-top: 1cm;
+}
+
+.btn-todo-add, .btn {
+  padding: 0.5rem;
+  size: 1rem;
+  background-color: #571c5b;
+  font-size: 1cm;
+  margin: 10px;
+  color: white;
+}
+
+.btn {
+  font-size: 0.5cm
+}
+
+
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 43px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.filter-todos {
+  padding-top: 10px;
+  margin-left: 43%;
+  width: 70%;
+  height: 5%;
+}
+
+.task-delete {
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 0.5cm;
+}
+
+.todo-display {
+  width: fit-content;
+  text-align: center;
+  margin-left: 35%;
+  padding: inherit;
+  height: 50px;
+}

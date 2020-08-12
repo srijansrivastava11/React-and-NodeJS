@@ -1,0 +1,46 @@
+form.form-students {
+    display: table;
+}
+
+div.form-students {
+    display: table-row;
+}
+form.form-cats {
+    display: table;
+}
+
+div.form-cats {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+.ui.negative.message {
+    background-color: #fff6f6;
+    color: #9f3a38;
+}
+.ui.message {
+    font-size: 1em;
+}
+.ui.message {
+    position: relative;
+    min-height: 1em;
+    margin: 1em 0;
+    background: #f8f8f9;
+    padding: 1em 1.5em;
+    line-height: 1.4285em;
+    color: rgba(0,0,0,.87);
+    -webkit-transition: opacity .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease,-webkit-box-shadow .1s ease;
+    border-radius: .28571429rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset, 0 0 0 0 transparent;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.22) inset, 0 0 0 0 transparent;
+}
