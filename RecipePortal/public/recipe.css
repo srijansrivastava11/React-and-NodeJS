@@ -1,0 +1,168 @@
+.login-panel{
+  text-align: center;
+  align-items: center;
+  background-color: snow;
+  font-family: Georgia;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 20px 30px;
+  background-color: #8987fa;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+}
+
+.outgoing {
+  padding: 2rem;
+  size: 2rem;
+  font-size: 1cm;
+  align-items: center;
+  text-align: center;
+}
+.create {
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: #a7bed0;
+  font-size: 1cm;
+}
+.add-recipe-btn{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: #a7bed0;
+  font-size: 1cm;
+}
+
+.logout {
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  background-color: tomato;
+}
+
+.status{
+  color: red;
+}
+
+.username {
+  padding: 0.5rem;
+  size: 2rem;
+  background-color: wheat;
+  font-size: 1cm;
+}
+
+
+.recipe-detail {
+  border: 1px solid black;
+  flex: 3 0 ;
+  background-color: #fffde7;
+}
+
+.text-fields {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.content {
+  text-align: center;
+  padding: 0.5rem;
+  size: 2rem;
+  font-size: 1cm;
+}
+
+.login {
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #E8EAF6;
+}
+
+.home-panel {
+  height: 60px;
+  padding: 20px 30px;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  flex-direction: row;
+  background-color: #8987fa;
+}
+
+.recipeList{
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  background-color: #fff4c091;
+  position: absolute;
+  top: 108px;
+  right: 0;
+  left: 0;
+}
+
+.recipe-list{
+  align-items: center;
+  border-color: #a7bed0;
+}
+
+.recipe-button{
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  min-width: 50px; width: auto;
+  background-color: #a7bed0;
+  border: black;
+  border-radius: 1rem;
+}
+
+.add-btn{
+  padding: 0.5rem ;
+  size: 1rem;
+  background-color: orchid;
+  font-size: 1cm;
+  align-items: center;
+}
+
+.description{
+  padding: 20px 30px;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #fffde7;
+  color: black ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+
+}
+
+.home {
+  padding: 0.5rem ;
+  size: 1rem;
+  font-size: 1cm;
+  margin-top: 2px;
+  margin-right: 5px;
+  position:absolute;
+  top: 10px;
+  left: 10px;
+
+  background-color: #E8EAF6;
+}
+
+.color-set{
+  color: rebeccapurple;
+  font-weight: normal;
+}
