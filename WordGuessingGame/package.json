@@ -1,0 +1,18 @@
+{
+  "name": "Srijan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "guess-web.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
